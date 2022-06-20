@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:weightSum="19">
+
+    <TextView
+        android:id="@+id/tv_list_show_type"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:focusableInTouchMode="false"
+        android:text="type"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_list_show_category"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_weight="6"
+        android:focusableInTouchMode="false"
+        android:text="category"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_list_show_amount"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_weight="6"
+        android:focusableInTouchMode="false"
+        android:text="amount"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_list_show_detail"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textColor="#5C7987"
+        app:icon="@android:drawable/ic_menu_info_details"
+        app:iconTint="#5C7987" />
+
+    <Button
+        android:id="@+id/btn_list_show_del"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textColor="#5C7987"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:iconTint="#5C7987" />
+
+</LinearLayout>

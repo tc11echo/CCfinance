@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_input">
+
+    <fragment
+        android:id="@+id/navigation_record"
+        android:name="com.example.a3165_asm2_g14.ui.record.RecordFragment"
+        android:label="@string/title_record"
+        tools:layout="@layout/fragment_input" />
+
+    <fragment
+        android:id="@+id/navigation_input"
+        android:name="com.example.a3165_asm2_g14.ui.input.InputFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_input" />
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.example.a3165_asm2_g14.ui.report.ReportFragment"
+        android:label="@string/title_report"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/navigation_badge"
+        android:name="com.example.a3165_asm2_g14.ui.badge.BadgeFragment"
+        android:label="@string/title_badge"
+        tools:layout="@layout/fragment_badge" />
+</navigation>

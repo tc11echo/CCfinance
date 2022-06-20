@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.badge.BadgeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e3e3e3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/iv_congratulations"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:src="@drawable/congratulations"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_what_is_Badge"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:gravity="center|center_vertical"
+                android:text="Come and Try to grab all these BADGES!"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#5C7987"
+                android:text="Share"
+                app:icon="@android:drawable/ic_menu_share"
+                app:iconGravity="textStart"
+                app:rippleColor="#151515" />
+
+            <TextView
+                android:id="@+id/tv_badge_not_owned"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center|center_vertical"
+                android:text="BADGE(NOT Owned)"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_NotOwned1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_NotOwned1"
+                        android:layout_width="130dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="left"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/trophy_black" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_NotOwned1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_vertical"
+                        android:text="First income"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_NotOwned2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_NotOwned2"
+                        android:layout_width="122dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy_black" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_NotOwned2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="First expense"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_NotOwned3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_NotOwned3"
+                        android:layout_width="122dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy_black" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_NotOwned3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="Saving $1000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_NotOwned4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_NotOwned4"
+                        android:layout_width="130dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="left"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/trophy_black" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_NotOwned4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_vertical"
+                        android:text="Saving 50% income"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_NotOwned5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_NotOwned5"
+                        android:layout_width="122dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy_black" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_NotOwned5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="E-Payment master"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_NotOwned6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_NotOwned6"
+                        android:layout_width="122dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy_black" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_NotOwned6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="Good saving habit"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_badge_owned"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical"
+                android:text="BADGE(Owned)"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_Owned1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_Owned1"
+                        android:layout_width="130dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/trophy" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_Owned1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_vertical"
+                        android:text="First income"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_Owned2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_Owned2"
+                        android:layout_width="122dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_Owned2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="First expense"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_Owned3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_Owned3"
+                        android:layout_width="122dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_Owned3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="Saving $10000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_Owned4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_Owned4"
+                        android:layout_width="130dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/trophy"
+                        tools:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_Owned4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_vertical"
+                        android:text="Saving 50% income"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_Owned5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_Owned5"
+                        android:layout_width="122dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_Owned5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="E-Payment master"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_trophy_Owned6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img_trophy_Owned6"
+                        android:layout_width="122dp"
+                        android:layout_height="123dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/trophy" />
+
+                    <TextView
+                        android:id="@+id/tv_trophy_Owned6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="Good saving habit"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

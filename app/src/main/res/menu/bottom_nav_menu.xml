@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_input"
+        android:icon="@drawable/input"
+        android:iconTint="@color/teal_200"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_record"
+        android:icon="@drawable/record"
+        android:iconTint="@color/teal_200"
+        android:title="@string/title_record" />
+
+    <item
+        android:id="@+id/navigation_report"
+        android:icon="@drawable/report"
+        android:iconTint="@color/teal_200"
+        android:title="@string/title_report" />
+
+    <item
+        android:id="@+id/navigation_badge"
+        android:icon="@drawable/badge"
+        android:iconTint="@color/teal_200"
+        android:title="@string/title_badge" />
+
+</menu>
